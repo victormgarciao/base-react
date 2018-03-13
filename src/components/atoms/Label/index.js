@@ -1,11 +1,11 @@
 import React, { PropTypes } from 'react';
-import cssSides, { Side } from '@team-griffin/css-sides';       // // // // TO FIND OUT
-import longhand from '@team-griffin/css-longhand';              // // // // TO FIND OUT
+import cssSides, { Side } from '@team-griffin/css-sides';
+import longhand from '@team-griffin/css-longhand';
 import omit from 'lodash/omit';
-import px2Em from '../../../helpers/px2Em';                     // // // // TO FIND OUT
-import { themePropType } from '../../../helpers/propTypes';     // // // // TO FIND OUT
-import { typography, px2EmConfig } from '../../../helpers/css'; // // // // TO FIND OUT
-import { TypographyFace } from '../../../constants/constants';  // // // // TO FIND OUT
+import px2Em from '../../../helpers/px2Em';
+import { themePropType } from '../../../helpers/propTypes';
+import { typography, px2EmConfig } from '../../../helpers/css';
+import { TypographyFace } from '../../../constants/constants';
 
 const displayName = 'Label';
 
@@ -51,7 +51,7 @@ const computeStyles = (props) => {
   };
 };
 
-const Label = (props: Object) => {
+const Label = (props) => {
   const {
     children,
     block,
